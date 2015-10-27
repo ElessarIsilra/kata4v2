@@ -6,11 +6,7 @@ public class Kata4v2 {
 
     public static void main(String[] args) {
         File file = new File("C:\\Users\\usuario\\Documents");
-        print(file.listFiles());
-    }
-
-    private static void print(File[] files) {
-        print(files, "");
+        print(file.listFiles(), "");
     }
 
     private static void print(File[] files, String indent) {
